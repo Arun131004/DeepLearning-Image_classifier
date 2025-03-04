@@ -18,7 +18,7 @@ def serve_static(filename):
 app = Flask(__name__)
 
 # Load trained model
-MODEL_PATH = "../cifar10_model.h5"  # Ensure the correct path
+MODEL_PATH = "cifar10_model.h5"  # Ensure the correct path
 model = load_model(MODEL_PATH)
 
 # Ensure static uploads folder exists
