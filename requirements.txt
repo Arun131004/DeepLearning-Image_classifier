@@ -1,0 +1,9 @@
+flask
+werkzeug
+numpy
+pillow
+torch       # If using PyTorch
+tensorflow  # If using TensorFlow (remove if not needed)
+opencv-python
+requests
+gunicorn    # Required for deployment
